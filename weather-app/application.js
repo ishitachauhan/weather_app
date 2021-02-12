@@ -1,7 +1,7 @@
 
 var http = require('http');
 const { listenerCount } = require('process');
-var url = 'https://api.openweathermap.org/data/2.5/weather?q=BIJNOR,IN&units=metric&appid=e9842d465201d00c9b33464e182e7e66'
+var url = '' //can use any api from open source weather app
 var server = http.createServer(function(request,response){
     var request = require('request');
     request(url,function(err,res,body){
